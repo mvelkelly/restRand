@@ -1,0 +1,117 @@
+body {
+  background-color: #84a9ac;
+  text-align: center;
+}
+
+h1 {
+  padding-bottom: 5%;
+  font-size: 5em;
+  font-family: 'Modak', cursive;
+}
+
+h2 {
+  font-family: 'Modak', cursive;
+  font-size: 3em;
+}
+
+
+
+
+img{
+  width: 70%;
+}
+
+
+
+
+/*----------by Class----------*/
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+.food {
+  padding-bottom: 4%;
+  font-family: 'Indie Flower', cursive;
+  color: #ffa931;
+  font-size: 8em;
+}
+.text {
+  /* color: #c4fb6d; */
+  color: #28df99;
+  letter-spacing: 2px;
+}
+
+.title {
+  padding-top: 5%;
+}
+.options {
+  padding-top: 7%;
+  font-family: 'Open Sans', sans-serif;
+  width: 25%;
+  margin: auto;
+}
+
+.breakfast {
+  color: #ccf6c8;
+  letter-spacing: 2px;
+  font-size: 2.5em;
+}
+
+.breakfast:hover{
+  font-size: 3em;
+  animation: bounce 1s;
+}
+
+.lunch {
+  color: #f6d6ad;
+  letter-spacing: 2px;
+  font-size: 2.5em;
+}
+
+.lunch:hover{
+  font-size: 3em;
+  animation: bounce 1s;
+}
+
+.drinks {
+  color: #f9c0c0;
+  letter-spacing: 2px;
+  font-size: 2.5em;
+}
+
+.drinks:hover{
+  font-size: 3em;
+  animation: bounce 1s;
+}
+
+a {
+  cursor: default;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+}
